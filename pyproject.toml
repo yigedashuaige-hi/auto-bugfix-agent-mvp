@@ -1,0 +1,11 @@
+[project]
+name = "auto-bugfix-agent-mvp"
+version = "0.1.0"
+description = "A minimal local repository maintenance and auto bug-fix agent."
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.40.0",
+]
+
+[project.scripts]
+auto-bugfix-agent = "auto_bugfix_agent.agent:main"
